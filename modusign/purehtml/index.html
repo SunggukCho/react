@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ice Cream Flavors</title>
+    <style>
+      li {
+        width: 118px;
+        padding: 5px;
+        text-align: center;
+        list-style-type: none;
+      }
+      /* Write your CSS solution here (do not edit the surrounding HTML or CSS) */
+      
+      @media only screen and (max-width: 600px) {
+        ul {
+          width: fit-content;
+          margin: 0 auto;
+          border: 1px solid black;
+          padding-left: 0;
+        }
+        li {
+          border-inline: none;
+        }
+      }
+      @media only screen and (min-width: 600px) {
+        ul {
+          width: fit-content;
+          margin: 0 auto;
+          border: 1px solid black;
+          padding-left: 0;
+        }
+        li {
+          float: left;
+          border-inline: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Butterscotch</li>
+      <li>Caramel Apple</li>
+      <li>Chocolate</li>
+      <li>Vanilla</li>
+    </ul>
+  </body>
+</html>
