@@ -25,7 +25,7 @@ class MainPage extends Component {
     this.setState({characters: [...this.state.characters, character]})
   }
   removeCharacter = (index) => {
-    const { characters } = this.state
+    const { characters } = this.state;
   
     this.setState({
       characters: characters.filter((character, i) => {
